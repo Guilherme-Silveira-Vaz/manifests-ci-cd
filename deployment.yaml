@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: guilhermesv3/hello-app:v2
+        image: guilhermesv3/hello-app:v3
         ports:
         - containerPort: 80
         readinessProbe:
